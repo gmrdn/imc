@@ -1,9 +1,9 @@
 import React from "react";
 import { shallow } from "enzyme";
 import App from "./App";
-import Imc from "./components/Imc";
+import BmiForm from "./components/BmiForm";
 
-test("contain the IMC component", () => {
+test("contain the BMI Form component", () => {
   const wrapper = shallow(<App></App>);
-  expect(wrapper.find(Imc)).toExist();
+  expect(wrapper.find(BmiForm)).toExist();
 });

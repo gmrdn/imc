@@ -1,13 +1,13 @@
 import React from "react";
 import { shallow } from "enzyme";
-import Imc from "./Imc";
+import BmiForm from "./BmiForm";
 import Calc from "./Calc";
 
 describe("Components", () => {
-  describe("Imc", () => {
+  describe("BmiFrom", () => {
     let wrapper;
     beforeEach(() => {
-      wrapper = shallow(<Imc></Imc>);
+      wrapper = shallow(<BmiForm></BmiForm>);
     });
 
     test("renders a size input", () => {

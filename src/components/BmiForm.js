@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Calc from "./Calc";
 
-const Imc = () => {
+const BmiForm = () => {
   const [size, setSize] = useState("");
   const [weight, setWeight] = useState("");
 
@@ -15,7 +15,7 @@ const Imc = () => {
 
   return (
     <div>
-      <h2>IMC</h2>
+      <h2>Body Mass Index (BMI)</h2>
       <label htmlFor="size">Size</label>
 
       <input
@@ -35,4 +35,4 @@ const Imc = () => {
   );
 };
 
-export default Imc;
+export default BmiForm;
