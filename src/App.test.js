@@ -5,5 +5,5 @@ import Imc from "./components/Imc";
 
 test("contain the IMC component", () => {
   const wrapper = shallow(<App></App>);
-  expect(wrapper).toContainReact(<Imc></Imc>);
+  expect(wrapper.find(Imc)).toExist();
 });
