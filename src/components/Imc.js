@@ -16,14 +16,14 @@ const Imc = () => {
   return (
     <div>
       <h2>IMC</h2>
-      <label for="size">Size</label>
+      <label htmlFor="size">Size</label>
 
       <input
         id="size"
         placeholder="Size (cm)"
         onChange={handleChangeSize}
       ></input>
-      <label for="weight">Weight</label>
+      <label htmlFor="weight">Weight</label>
 
       <input
         id="weight"
