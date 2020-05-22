@@ -15,8 +15,21 @@ const Imc = () => {
 
   return (
     <div>
-      <input id="size" onChange={handleChangeSize}></input>
-      <input id="weight" onChange={handleChangeWeight}></input>
+      <h2>IMC</h2>
+      <label for="size">Size</label>
+
+      <input
+        id="size"
+        placeholder="Size (cm)"
+        onChange={handleChangeSize}
+      ></input>
+      <label for="weight">Weight</label>
+
+      <input
+        id="weight"
+        placeholder="Weight (kg)"
+        onChange={handleChangeWeight}
+      ></input>
       <Calc size={size} weight={weight}></Calc>
     </div>
   );
